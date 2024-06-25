@@ -1,4 +1,6 @@
-# Matching
+![CC Graphics 2024_Matching-01](https://github.com/csae-coders-corner/Matching/assets/148211163/f230eefe-7101-4d1f-a61d-7ba3523292a0)
+
+#Matching
 
 As researchers, we frequently integrate data from various sources. Fuzzy matching is a valuable technique for comparing and matching strings that are not the same but exhibit similar patterns. The stringdist R package offers a wide range of string distance metrics to measure the similarity or dissimilarity between strings.
 The function in this piece of code utilizes the Jaro–Winkler distance, a string metric that measures the edit distance between two sequences. The Jaro–Winkler distance provides a normalized score where 0 indicates an exact match and 1 signifies no similarity. Therefore, a lower Jaro–Winkler distance implies greater similarity between the strings.
